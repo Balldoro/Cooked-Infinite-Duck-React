@@ -1,0 +1,40 @@
+.button-icon-secondary-container {
+  display: flex;
+  position: relative;
+}
+.button-icon-secondary-button {
+  display: flex;
+  flex-direction: row;
+}
+.button-icon-secondary-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media(max-width: 479px) {
+  .button-icon-secondary-button {
+    color: #1e1e1e;
+    height: 50px;
+    align-self: center;
+    padding-top: 16px;
+    border-color: #dededf;
+    border-style: solid;
+    border-width: 2px;
+    padding-left:  8px;
+    border-radius: 8px;
+    padding-right:  8px;
+    padding-bottom: 16px;
+    justify-content: center;
+    background-color: #fff;
+  }
+  .button-icon-secondary-icon {
+    fill: #1977f3;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    border-radius: 50%;
+  }
+  .button-icon-secondary-text {
+    color: var(--dl-color-gray-text);
+  }
+}
