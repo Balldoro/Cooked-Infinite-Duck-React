@@ -21,7 +21,7 @@ const Home = (props) => {
         />
       </div>
       <div className="home-container2">
-        <span className="Heading home-text">Create an account</span>
+        <span className="Heading home-text">Create an accounddt</span>
         <div className="home-container3">
           <span className="Subheading home-text1">Already a member? </span>
           <a
